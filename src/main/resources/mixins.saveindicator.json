@@ -1,16 +1,17 @@
 {
     "required": false,
     "compatibilityLevel": "JAVA_8",
-    "package": "io.bluebeaker.examplemod.mixin",
+    "package": "io.bluebeaker.saveindicator.mixin",
     "mixins": [
 
     ],
     "client": [
+      "MixinMinecraftServer"
     ],
     "server": [
     ],
     "injectors": {
       "defaultRequire": 1
     },
-    "refmap": "mixins.examplemod.refmap.json"
+    "refmap": "mixins.saveindicator.refmap.json"
   }
